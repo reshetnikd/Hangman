@@ -13,6 +13,7 @@
 		35945CF62426818900BA93E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35945CF42426818900BA93E2 /* Main.storyboard */; };
 		35945CF82426818A00BA93E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35945CF72426818A00BA93E2 /* Assets.xcassets */; };
 		35945CFB2426818A00BA93E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35945CF92426818A00BA93E2 /* LaunchScreen.storyboard */; };
+		35945D032426830000BA93E2 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35945D022426830000BA93E2 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35945CF72426818A00BA93E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35945CFA2426818A00BA93E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35945CFC2426818A00BA93E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35945D022426830000BA93E2 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				35945CF02426818900BA93E2 /* SceneDelegate.swift */,
 				35945CF22426818900BA93E2 /* ViewController.swift */,
 				35945CF42426818900BA93E2 /* Main.storyboard */,
+				35945D022426830000BA93E2 /* start.txt */,
 				35945CF72426818A00BA93E2 /* Assets.xcassets */,
 				35945CF92426818A00BA93E2 /* LaunchScreen.storyboard */,
 				35945CFC2426818A00BA93E2 /* Info.plist */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35945CFB2426818A00BA93E2 /* LaunchScreen.storyboard in Resources */,
+				35945D032426830000BA93E2 /* start.txt in Resources */,
 				35945CF82426818A00BA93E2 /* Assets.xcassets in Resources */,
 				35945CF62426818900BA93E2 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36JR7N2LBE;
 				INFOPLIST_FILE = Hangman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36JR7N2LBE;
 				INFOPLIST_FILE = Hangman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

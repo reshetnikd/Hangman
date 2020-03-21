@@ -124,12 +124,18 @@ class ViewController: UIViewController {
         answers += 1
         
         if answers == 7 {
+            let ac = UIAlertController(title: "Lose", message: "You are lose, try again.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
             loadLevel()
         }
         
         if (wordLabel.text?.contains("_"))! {
             return
         } else {
+            let ac = UIAlertController(title: "Win", message: "You are win, move to the next level.", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .default))
+            present(ac, animated: true)
             level += 1
             loadLevel()
         }
